@@ -1,0 +1,53 @@
+/*Aqui adicionamos estilo e formatação ao nosso html*/
+
+p {text-align: center;} 
+/* o "p" faz referencia a todo parágrado em nosso HTML.O comando enm {} indica a centralização do texto.*/
+
+em strong {color: #ff0000; }
+/* nas tag em e strong a cor de texto será vermelho #ff0000*/
+
+#banner{ width: 100%;}
+/* # é usado para indicar os id no HTML. { width é tamanho em proporçao de 100% da página}*/
+
+.titulo_principal{padding-left: 20px;}
+/* . é usado para indicar as classes no HTML; {todo preenchimento da esquerda ocupará 20 px}*/
+
+#missao {font-size:  20px;}
+/* {define o tamanho do texto em 20 px}*/
+
+.itens{font-style: italic;}
+/*{define o estilo da fonte em itálico}*/
+
+
+.beneficio
+{
+    background-color: #ffffff;
+    /*{define a cor de fundo: #ffffff é branco em HTML}*/
+    padding: 20px;
+    /*{preenchimento de todos os lados em 20px}*/
+}
+
+.principal
+{
+    background-color:#a9a9a9;
+    /*{define a cor de fundo: #a9a9a9 é cinza escuro em HTML}*/
+    padding: 30px;
+    /*{preenchimento de todos os lados em 30px}*/
+}
+
+.titulo_centralizado{text-align: center;}
+
+ul
+{
+    display: inline-block;
+    /*display: inline-block, as margens / preenchimentos superior e inferior são respeitados, 
+    display: inline-block não adiciona uma quebra de linha após o elemento, então o elemento pode ficar próximo a outros elementos*/
+    
+    vertical-align: top;
+    /*alinamento vertical superior*/
+    margin-right: 15%; 
+    width: 20%;   
+    /* tamanho definido em 20% e margin direita em 15%*/
+}
+
+.imagem_beneficios{width: 50%;}
